@@ -6,6 +6,7 @@
 // @author       soiderino
 // @match        https://jut.su/*
 // @icon         https://jut.su/favicon.ico
+// @updateURL    https://github.com/soiderino/jut.su-extended/blob/main/jutsu-extended.user.js
 // @downloadURL  https://github.com/soiderino/jut.su-extended/blob/main/jutsu-extended.user.js
 // @supportURL   https://github.com/soiderino/jut.su-extended/issues/new
 // @grant        none
