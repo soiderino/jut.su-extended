@@ -1,4 +1,4 @@
-# 🐱‍👤 Jut.su Extended
+# 🐸 Jut.su Extended
 
 
 ✨ Automatically skips opening/ending in the website. <br>
