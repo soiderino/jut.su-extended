@@ -1,0 +1,80 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+  --primary-color: #293e29;
+  --font-color: #a4c0a5;
+  --text-color: #cdcdd4;
+  --secondary-color: #1f1f1f;
+  --checkbox-primary: #62955b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 300px;
+  font-size: 14px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header img {
+  margin-right: 0.5rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+  font-size: 13px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+section #lastVersion {
+  font-family: 'consolas', monospace;
+  background-color: #2b2b2b;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 12px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  padding: 0.7rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
