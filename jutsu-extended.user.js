@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jut.su Extended
 // @namespace    https://github.com/soiderino/jut.su-extended
-// @version      0.2
+// @version      0.2-semifix
 // @description  Basically automatically skips opening/ending on website.
 // @author       soiderino
 // @match        https://jut.su/*
