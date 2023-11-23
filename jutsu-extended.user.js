@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jut.su Extended
 // @namespace    https://github.com/soiderino/jut.su-extended
-// @version      0.2pre2
+// @version      0.2pre3
 // @description  Basically automatically skips opening/ending on website.
 // @author       soiderino
 // @match        https://jut.su/*
@@ -31,8 +31,6 @@
       }
     }
 
-    const config = { attributes: true }
-
     const skipOpening = document.querySelectorAll(
       '#my-player > div.vjs-overlay.vjs-overlay-bottom-left.vjs-overlay-skip-intro.vjs-overlay-background'
     )[0]
@@ -42,7 +40,7 @@
 
     const observer = new MutationObserver(handleMutation)
 
-    if (skipOpening) observer.observe(skipOpening, config)
-    if (skipEnding) observer.observe(skipEnding, config)
+    if (skipOpening) observer.observe(skipOpening, { attributes: true })
+    if (skipEnding) observer.observe(skipEnding, { attributes: true })
   })
 })()
