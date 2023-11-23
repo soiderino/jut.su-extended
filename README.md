@@ -1,6 +1,6 @@
 # 🐸 Jut.su Extended
 
-![OnjOuuOb3L](https://github.com/soiderino/jut.su-extended/assets/57572890/8d5fff55-dbaf-45dd-91f7-b5c98178f573)
+![OnjOuuOb3L](https://raw.githubusercontent.com/soiderino/jut.su-extended/main/img/OnjOuuOb3L.png)
 
 ✨ Automatically skips opening/ending for Jut.su <br>
 
