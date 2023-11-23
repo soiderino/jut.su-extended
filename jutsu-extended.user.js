@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Jut.su Extended
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/soiderino/jut.su-extended
+// @version      0.2
 // @description  Basically automatically skips opening/ending on website.
 // @author       soiderino
 // @match        https://jut.su/*
 // @icon         https://jut.su/favicon.ico
+// @downloadURL  https://github.com/soiderino/jut.su-extended/blob/main/jutsu-extended.user.js
+// @supportURL   https://github.com/soiderino/jut.su-extended/issues/new
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
@@ -31,6 +33,8 @@
       }
     }
 
+    const config = { attributes: true }
+
     const skipOpening = document.querySelectorAll(
       '#my-player > div.vjs-overlay.vjs-overlay-bottom-left.vjs-overlay-skip-intro.vjs-overlay-background'
     )[0]
@@ -40,7 +44,7 @@
 
     const observer = new MutationObserver(handleMutation)
 
-    if (skipOpening) observer.observe(skipOpening, { attributes: true })
-    if (skipEnding) observer.observe(skipEnding, { attributes: true })
+    if (skipOpening) observer.observe(skipOpening, config)
+    if (skipEnding) observer.observe(skipEnding, config)
   })
 })()
