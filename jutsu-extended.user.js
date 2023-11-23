@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jut.su Extended
 // @namespace    https://github.com/soiderino/jut.su-extended
-// @version      0.2pre1
+// @version      0.2pre2
 // @description  Basically automatically skips opening/ending on website.
 // @author       soiderino
 // @match        https://jut.su/*
@@ -25,10 +25,7 @@
         ) {
           const target = mutation.target
           if (!target.classList.contains('vjs-hidden')) {
-            // only for debugging
-            // console.log('vjs-hidden class disappeared from:', target)
-
-            target.click() // force click if the button appears
+            target.click()
           }
         }
       }
