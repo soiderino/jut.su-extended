@@ -1,11 +1,9 @@
 # 🐸 Jut.su Extended
+✨ Automatically skips opening/ending for Jut.su <br>
 
 > [!NOTE]
-> Works on all Chromium based browsers.
+> Extension works on all Chromium based browsers.
 
-![OnjOuuOb3L](https://raw.githubusercontent.com/soiderino/jut.su-extended/main/img/OnjOuuOb3L.png)
-
-✨ Automatically skips opening/ending for Jut.su <br>
 
 # ⚙️ Download & Installing Steps: <br>
 
