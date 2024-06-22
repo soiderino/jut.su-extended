@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Jut.su Extended",
-  "version": "1.0",
-  "description": "Automatically skips opening/ending in Jut.su",
+  "version": "1.1",
+  "description": "Automatically skips the opening and ending of the series on the site jut.su",
   "action": {
     "default_popup": "popup.html"
   },
