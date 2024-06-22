@@ -12,6 +12,6 @@
 3. After extracting open Any Chrome Browser > Settings > Extensions > Enable Developer Mode > Press Load Unpacked > Select `jutsu-extended` folder.
 4. Done.
 
-# 🐛 Found a Issue?
+# 🐛 Have problem/suggestion?
 
 Write it here: https://github.com/soiderino/jut.su-extended/issues/new/choose
