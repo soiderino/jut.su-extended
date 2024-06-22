@@ -47,8 +47,6 @@ section {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0;
   padding: 1rem;
 }
@@ -69,4 +67,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+svg {
+  fill: var(--font-color);
+  height: 20px;
+  width: 20px;
+}
+
+svg:hover {
+  opacity: 0.5;
 }
